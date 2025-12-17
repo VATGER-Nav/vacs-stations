@@ -1,0 +1,269 @@
+[stations]
+selected_profile = "EDWW"
+
+[stations.profiles.EDWW]
+include = [
+    "EDWW*",
+    "EDXX*",
+    "EDYY*",
+    "EDUU_*",
+    "EDMM_*",
+    "EDGG_*",
+    "EHMC_*",
+    "EHGG*_APP",
+    "EHAA*",
+    "EKDK_*",
+    "ESMM*",
+    "ESMS*_APP",
+    "ESAA_*",
+    "EPGD_I*_APP",
+    "EPWW*",
+    "EPSC*_TWR",
+    "EPPO*_APP",
+    "SCO*",
+    "EBBU*",
+    "EDDB*",
+    "EDDH*",
+    "EDDV*",
+    "EDDW*",
+    "EDAH*",
+    "EDHI*",
+    "EDHL*",
+    "EDVE*",
+    "EDVK*",
+    "EDXW*",
+    "EDAY*",
+    "EDAZ*",
+    "EDBC*",
+    "EDBH*",
+    "EDBM*",
+    "EDBN*",
+    "EDHK*",
+    "EDWE*",
+    "EDWI*",
+    "ETHB*",
+    "ETHC*",
+    "ETHS*",
+    "ETMN*",
+    "ETNH*",
+    "ETNL*",
+    "ETNS*",
+    "ETNT*",
+    "ETNW*",
+    "ETSH*",
+    "EDDC*_APP",
+    "EDDP*_APP",
+    "EDDG*_APP",
+    "EDDL*_APP",
+    "EDDK*_APP",
+    "EDLP*_APP",
+    "EDDR*_APP",
+    "EDDF*_APP",
+    "ED*_FMP",
+    "EP*_FMP",
+    "EK*_FMP",
+    "EH*_FMP",
+    "ES*_FMP",
+]
+exclude = []
+priority = [
+    "EDWW_*",
+    "EDYY_*",
+    "EDUU_*",
+    "EDGG_*",
+    "EDMM_*",
+    "*_FMP",
+    "*_CTR",
+    "*_DEP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+]
+frequencies = "HideAliased"
+grouping = "Icao"
+
+[stations.profiles.EDWW.aliases]
+"125.450" = "EPWW_T_CTR"
+"125.200" = "EDGG_DKB_CTR"
+"133.955" = "EDYY_CL_CTR"
+"126.300" = "EPPO_FIS_APP"
+"123.390" = "EDUU_CHI_CTR"
+"133.805" = "ESMM_XK_CTR"
+"133.230" = "EDMM_GER_CTR"
+"128.630" = "ESMM_FIS_CTR"
+"125.000" = "EBBU_L_CTR"
+"135.650" = "EDGG_PAH_CTR"
+"128.810" = "EDYY_CH_CTR"
+"132.330" = "EDUU_FFM_CTR"
+"121.255" = "EPSC_TWR"
+"131.300" = "EDGG_BAD_CTR"
+"120.540" = "EDDH_HAM_APP"
+"132.315" = "EDYY_LH_CTR"
+"134.225" = "EDDH_W_APP"
+"133.615" = "EDMM_BBG_CTR"
+"136.465" = "EDYY_JL_CTR"
+"126.900" = "EBBU_I_CTR"
+"128.200" = "EBBU_H_CTR"
+"136.450" = "EDWW_FLG_CTR"
+"135.960" = "EDYY_WST_CTR"
+"125.875" = "EDDC_SAS_APP"
+"125.750" = "EHAA_LOW_CTR"
+"132.405" = "EDUU_TGO_CTR"
+"134.800" = "EDGG_HAB_CTR"
+"133.460" = "EDGG_KIR_CTR"
+"135.530" = "EGPX_CTR"
+"125.855" = "EDWW_HEI_CTR"
+"133.550" = "EDMM_FUE_CTR"
+"129.575" = "EBBU_E_CTR"
+"118.205" = "EDDH_A_APP"
+"125.025" = "EDWW_EMS_CTR"
+"120.805" = "EDDF_N_APP"
+"124.900" = "EDGG_SIG_CTR"
+"127.365" = "EDDK_NOR_APP"
+"136.525" = "EDMM_SWA_APP"
+"123.225" = "EDWW_BOR_CTR"
+"136.230" = "EDMM_WLD_CTR"
+"132.780" = "EDYY_HH_CTR"
+"128.355" = "EHMC_MIL_CTR"
+"132.635" = "EDMM_TRU_CTR"
+"124.405" = "ESMM_4_CTR"
+"124.730" = "EDGG_GIN_CTR"
+"127.500" = "EDGG_NKH_CTR"
+"128.215" = "EKDK_C_CTR"
+"126.785" = "EDUU_OH_CTR"
+"132.855" = "EDYY_LNH_CTR"
+"126.325" = "EDWW_ALR_CTR"
+"125.355" = "EDDF_S_APP"
+"132.700" = "EPWW_N_CTR"
+"134.155" = "ESMS_XL_APP"
+"123.625" = "EPWW_R_CTR"
+"132.555" = "EDMM_RDG_CTR"
+"133.355" = "EDYY_LL_CTR"
+"128.790" = "EDYY_RL_CTR"
+"128.925" = "EPPO_APP"
+"123.280" = "EDGG_KTG_CTR"
+"133.860" = "EDUU_SAL_CTR"
+"132.755" = "EDYY_NH_CTR"
+"119.555" = "EKDK_B_CTR"
+"120.860" = "EDYY_HL_CTR"
+"129.075" = "EPWW_F_CTR"
+"124.625" = "EPWW_J_CTR"
+"121.325" = "EGPX_E_CTR"
+"129.840" = "EDYY_BB_CTR"
+"133.285" = "EDUU_SPE_CTR"
+"121.130" = "EDDB_AS_APP"
+"126.055" = "EKDK_UV_CTR"
+"131.100" = "EBBU_W_CTR"
+"120.950" = "EPWW_E_CTR"
+"122.185" = "EDYY_ML_CTR"
+"118.330" = "EKRN_TWR"
+"123.780" = "EKDK_E_CTR"
+"132.205" = "EDYY_KL_CTR"
+"127.230" = "EBBU_C_CTR"
+"123.705" = "EHAA_W_CTR"
+"134.980" = "ESMS_L_APP"
+"124.155" = "ESMM_7_CTR"
+"129.555" = "EDMM_EGG_CTR"
+"133.680" = "EDMM_TEG_CTR"
+"127.150" = "EPGD_FIS_APP"
+"119.110" = "EDDL_BOT_APP"
+"124.430" = "EDGG_GED_CTR"
+"128.555" = "EDDL_DLA_APP"
+"128.235" = "EDUU_HVL_CTR"
+"133.215" = "EDYY_MH_CTR"
+"127.755" = "ESMM_2_CTR"
+"125.225" = "EDLP_PAL_APP"
+"127.625" = "EDGG_TAU_CTR"
+"129.735" = "EDYY_JH_CTR"
+"136.050" = "EDWW_MAR_CTR"
+"130.110" = "EDYY_MM_CTR"
+"119.490" = "EDDV_HAN_APP"
+"126.065" = "EDDP_TRN_APP"
+"133.035" = "EDUU_OSE_CTR"
+"122.785" = "EDUU_FUL_CTR"
+"120.340" = "EDDB_N_DEP"
+"134.775" = "EGPX_S_CTR"
+"121.380" = "EKDK_I_CTR"
+"133.435" = "EDGG_RUD_CTR"
+"124.175" = "EDWW_MRZ_CTR"
+"130.975" = "EDGG_FMP"
+"124.105" = "EKSP_APP"
+"124.960" = "EDMM_MEI_CTR"
+"120.930" = "EDUU_SLN_CTR"
+"136.405" = "EDUU_ERL_CTR"
+"134.875" = "EPWW_FIS_CTR"
+"135.980" = "EDYY_NL_CTR"
+"131.040" = "EKDK_FMP"
+"120.630" = "EDDB_S_DEP"
+"124.075" = "EDWW_EID_CTR"
+"131.380" = "EDYY_SH"
+"124.240" = "EDWW_HRZ_CTR"
+"119.630" = "EDDB_N_APP"
+"133.565" = "EDMM_HOF_CTR"
+"124.880" = "EHAA_E_CTR"
+"129.100" = "EDMM_ALB_CTR"
+"124.555" = "EKDK_L_CTR"
+"135.985" = "ESMM_9_CTR"
+"135.350" = "EDDK_DKA_APP"
+"134.375" = "EHAA_CTR"
+"132.080" = "EDUU_NTM_CTR"
+"133.155" = "EKDK_D_CTR"
+"134.150" = "EDMM_ZUG_CTR"
+"134.710" = "EDYY_SL_CTR"
+"129.675" = "EDDR_PFA_APP"
+"133.755" = "EDUU_ALP_CTR"
+"133.475" = "EPWW_C_CTR"
+"124.800" = "EDDW_FRI_APP"
+"120.305" = "EHGG_APP"
+"124.680" = "EKDK_N_CTR"
+"126.165" = "EDDP_TRS_APP"
+"136.335" = "EDUU_ISA_CTR"
+"124.925" = "EPWW_G_CTR"
+"132.455" = "EDMM_STA_CTR"
+"126.425" = "EDDB_S_APP"
+"134.455" = "ESMM_Y_CTR"
+"129.925" = "EGPX_H_CTR"
+"132.765" = "ESMM_5_CTR"
+"136.555" = "EKDK_CTR"
+"134.085" = "EDUU_WUR_CTR"
+"125.980" = "EBBU_U_CTR"
+"135.805" = "ESMM_6_CTR"
+"122.835" = "EDYY_RH_CTR"
+"130.625" = "EPWW_U_CTR"
+"127.865" = "EKDK_UC_CTR"
+"127.290" = "EDUU_DON_CTR"
+"135.565" = "EKDK_V_CTR"
+"125.680" = "EDGG_KNG_CTR"
+"136.105" = "EDDB_AN_APP"
+"129.300" = "EDDG_HMM_CTR"
+"123.850" = "EHAA_S_CTR"
+"128.055" = "ESMM_3_CTR"
+"135.290" = "EKDK_A_CTR"
+"128.805" = "EBBU_H_CTR"
+"136.485" = "EKDK_UA_CTR"
+"125.405" = "EDGG_PSA_CTR"
+"125.140" = "EDMM_NDG_CTR"
+"128.180" = "ESMM_8_CTR"
+"124.300" = "EHAA_FIS_CTR"
+"127.725" = "EDGG_HEF_CTR"
+"127.025" = "EPWW_B_CTR"
+"131.280" = "ESMM_K_CTR"
+"118.235" = "EDMM_HAL_CTR"
+"127.050" = "EDGG_LBU_CTR"
+"126.825" = "ESAA_CTR_CTR"
+"119.605" = "EDDV_A_APP"
+
+[stations.profiles.Default]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+]
+frequencies = "ShowAll"
+grouping = "None"
+
+[stations.profiles.Default.aliases]

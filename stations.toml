@@ -45,6 +45,9 @@ include = [
     "EDUU_OH2*",
     "EDUU_SLN*",
     "EDUU_TGO*",
+    "EDUU_UC*",
+    "EDUU_UCW*",
+    "EDUU_UW*",
     "EDWW_HRZ*",
     "EDWW_EMS*",
     "EDWW_HEI*",
@@ -68,6 +71,7 @@ include = [
 ]
 exclude = []
 priority = [
+    "YY-BB_CTR",
     "MM_CTR",
     "MH_CTR",
     "ML_CTR",
@@ -83,6 +87,9 @@ priority = [
     "JL_CTR",
     "HH_CTR",
     "HL_CTR",
+    "UC_CTR",
+    "UW_CTR",
+    "UCW_CTR",
     "FUL_CTR",
     "FFM_CTR",
     "NTM_CTR",
@@ -91,6 +98,22 @@ priority = [
     "HRZ_CTR",
     "EMS_CTR",
     "HEI_CTR",
+    "GN_CTR",
+    "GNH_CTR",
+    "GC_CTR",
+    "GCH_CTR",
+    "GCA_CTR",
+    "GS_CTR",
+    "GSH_CTR",
+    "GSA_CTR",
+    "GA_CTR",
+    "GAH_CTR",
+    "GCS_CTR",
+    "GCSH_CTR",
+    "BADH_CTR",
+    "DKBH_CTR",
+    "GINH_CTR",
+    "RUDH_CTR",
     "GIN_CTR",
     "RUD_CTR",
     "HEF_CTR",
@@ -120,6 +143,10 @@ grouping = "None"
 
 # Central Langen (GIN area and adjacent sectors)
 [stations.profiles.EDGG_North.aliases]
+"129.840" = "YY-BB_CTR"
+"130.260" = "UC_CTR"
+"136.560" = "UW_CTR"
+"134.690" = "UCW_CTR"
 "122.785" = "FUL_CTR"
 "132.330" = "FFM_CTR"
 "132.080" = "NTM_CTR"
@@ -141,6 +168,22 @@ grouping = "None"
 "120.860" = "HL_CTR"
 "126.785" = "OH2_CTR"
 "128.235" = "HVL_CTR"
+"118.215" = "GN_CTR"
+"136.480" = "GNH_CTR"
+"133.815" = "GC_CTR"
+"127.925" = "GCH_CTR"
+"133.835" = "GCA_CTR"
+"136.315" = "GS_CTR"
+"123.010" = "GSH_CTR"
+"131.365" = "GSA_CTR"
+"132.230" = "GA_CTR"
+"125.935" = "GAH_CTR"
+"135.310" = "GCS_CTR"
+"135.030" = "GCSH_CTR"
+"124.035" = "BADH_CTR"
+"133.340" = "DKBH_CTR"
+"128.075" = "GINH_CTR"
+"135.725" = "RUDH_CTR"
 "124.730" = "GIN_CTR"
 "133.435" = "RUD_CTR"
 "127.725" = "HEF_CTR"
@@ -174,6 +217,10 @@ include = [
     "EDUU_WUR*",
     "EDUU_SLN*",
     "EDUU_TGO*",
+    "EDUU_UC*",
+    "EDUU_UCW*",
+    "EDUU_UW*",
+    "EDYY_YY-BB*",
     "EDYY_CH*",
     "EDYY_CL*",
     "EDYY_SH*",
@@ -212,6 +259,10 @@ include = [
 ]
 exclude = []
 priority = [
+    "YY-BB_CTR",
+    "UC_CTR",
+    "UW_CTR",
+    "UCW_CTR",
     "FUL_CTR",
     "FFM_CTR",
     "NTM_CTR",
@@ -224,6 +275,22 @@ priority = [
     "SL_CTR",
     "RH_CTR",
     "RL_CTR",
+    "GN_CTR",
+    "GNH_CTR",
+    "GC_CTR",
+    "GCH_CTR",
+    "GCA_CTR",
+    "GS_CTR",
+    "GSH_CTR",
+    "GSA_CTR",
+    "GA_CTR",
+    "GAH_CTR",
+    "GCS_CTR",
+    "GCSH_CTR",
+    "BADH_CTR",
+    "DKBH_CTR",
+    "GINH_CTR",
+    "RUDH_CTR",
     "GIN_CTR",
     "RUD_CTR",
     "HEF_CTR",
@@ -268,6 +335,10 @@ grouping = "None"
 
 # Southern Langen (DKB area and adjacent sectors)
 [stations.profiles.EDGG_Central.aliases]
+"129.850" = "YY-BB_CTR"
+"130.260" = "UC_CTR"
+"136.560" = "UW_CTR"
+"134.690" = "UCW_CTR"
 "122.785" = "FUL_CTR"
 "132.330" = "FFM_CTR"
 "132.080" = "NTM_CTR"
@@ -279,6 +350,22 @@ grouping = "None"
 "122.185" = "ML_CTR"
 "128.790" = "RL_CTR"
 "134.710" = "SL_CTR"
+"118.215" = "GN_CTR"
+"136.480" = "GNH_CTR"
+"133.815" = "GC_CTR"
+"127.925" = "GCH_CTR"
+"133.835" = "GCA_CTR"
+"136.315" = "GS_CTR"
+"123.010" = "GSH_CTR"
+"131.365" = "GSA_CTR"
+"132.230" = "GA_CTR"
+"125.935" = "GAH_CTR"
+"135.310" = "GCS_CTR"
+"135.030" = "GCSH_CTR"
+"124.035" = "BADH_CTR"
+"133.340" = "DKBH_CTR"
+"128.075" = "GINH_CTR"
+"135.725" = "RUDH_CTR"
 "124.730" = "GIN_CTR"
 "133.435" = "RUD_CTR"
 "127.725" = "HEF_CTR"
@@ -336,8 +423,12 @@ include = [
     "EDUU_DON*",
     "EDUU_ISA*",
     "EDUU_ALP*",
+    "EDUU_UC*",
+    "EDUU_UCW*",
+    "EDUU_UW*",
     "EDYY_HH*",
     "EDYY_HE*",
+    "EDYY_YY-BB*",
     "EDMM_HAL*",
     "EDMM_GER*",
     "EDMM_BBG*",
@@ -369,12 +460,32 @@ include = [
 ]
 exclude = []
 priority = [
+    "YY-BB_CTR",
     "SLN_CTR",
     "WUR_CTR",
     "TGO_CTR",
     "FUL_CTR",
     "FFM_CTR",
     "NTM_CTR",
+    "UC_CTR",
+    "UW_CTR",
+    "UCW_CTR",
+    "GN_CTR",
+    "GNH_CTR",
+    "GC_CTR",
+    "GCH_CTR",
+    "GCA_CTR",
+    "GS_CTR",
+    "GSH_CTR",
+    "GSA_CTR",
+    "GA_CTR",
+    "GAH_CTR",
+    "GCS_CTR",
+    "GCSH_CTR",
+    "BADH_CTR",
+    "DKBH_CTR",
+    "GINH_CTR",
+    "RUDH_CTR",
     "GIN_CTR",
     "RUD_CTR",
     "HEF_CTR",
@@ -415,12 +526,32 @@ frequencies = "ShowAll"
 grouping = "None"
 
 [stations.profiles.EDGG_South.aliases]
+"129.840" = "YY-BB_CTR"
+"130.260" = "UC_CTR"
+"136.560" = "UW_CTR"
+"134.690" = "UCW_CTR"
 "122.785" = "FUL_CTR"
 "132.330" = "FFM_CTR"
 "132.080" = "NTM_CTR"
 "134.085" = "WUR_CTR"
 "120.930" = "SLN_CTR"
 "132.405" = "TGO_CTR"
+"118.215" = "GN_CTR"
+"136.480" = "GNH_CTR"
+"133.815" = "GC_CTR"
+"127.925" = "GCH_CTR"
+"133.835" = "GCA_CTR"
+"136.315" = "GS_CTR"
+"123.010" = "GSH_CTR"
+"131.365" = "GSA_CTR"
+"132.230" = "GA_CTR"
+"125.935" = "GAH_CTR"
+"135.310" = "GCS_CTR"
+"135.030" = "GCSH_CTR"
+"124.035" = "BADH_CTR"
+"133.340" = "DKBH_CTR"
+"128.075" = "GINH_CTR"
+"135.725" = "RUDH_CTR"
 "124.730" = "GIN_CTR"
 "133.435" = "RUD_CTR"
 "127.725" = "HEF_CTR"
